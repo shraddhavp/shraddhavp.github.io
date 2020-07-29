@@ -1,4 +1,8 @@
-
+body{
+    background-color: #fabe58;
+    padding: 0;
+    margin: 0;
+}
 .card{
     display:none;
     background-color: white;
