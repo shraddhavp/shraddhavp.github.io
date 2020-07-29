@@ -1,0 +1,121 @@
+body{
+    background-color: #fabe58;
+    padding: 0;
+    margin: 0;
+}
+.card{
+    display:none;
+    background-color: white;
+    height: 450px;
+    width: 310px;
+    position: absolute;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    border-radius: 8px;
+    box-shadow: 0 0 80px 1px rgba(233,144,7,0.8);
+}
+.info{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.name{
+    font-size: 35px;
+    font-family: "Raleway",sans-serif;
+    color: #f79f08;
+    position: absolute;
+    letter-spacing: 2px;
+    font-weight: 600;
+    top:100px;
+}
+.prof{
+    font-size: 25px;
+    position: absolute;
+    top:140px;
+    font-family: "Work Sans",sans-serif;
+    color: #555555;
+}
+.divider{
+    background-color: #949594;
+    height: 1.5px;
+    width: 50px;
+    position: absolute;
+    top:190px;
+}
+.bio{
+    position: absolute;
+    top:220px;
+    color: #949594;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Work Sans",sans-serif;
+    line-height: 28px;
+}
+button{
+    position: absolute;
+    bottom: 30px;
+    background-color: #f79f08;
+    border: none;
+    font-size: 20px;
+    padding: 13px 25px;
+    color: white;
+    font-family: "Work Sans",sans-serif;
+}
+.photo{
+    height: 100%;
+    width: 100%;
+    background: url(https://i.ibb.co/kJmjLcT/Webp-net-compress-image-3.jpg);
+    background-repeat:no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+.card:hover .photo{
+    transform: scale(0.5,0.35) translateY(-650px);
+    -webkit-transform: scale(0.5,0.35) translateY(-650px);
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+    border-radius: 50%;
+}
+#loader{
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    padding:0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    font-family: 'Work Sans',sans-serif;
+    color:#262626;
+    font-size: 25px;
+}
+a{
+    position: absolute;
+    display: block;
+    bottom:-70px;
+    font-size: 25px;
+    font-family: 'Work Sans',sans-serif;
+    background-color:white; 
+    color: #fabe58;
+    text-decoration: none;
+    width: 100%;
+    padding: 12px 0;
+    font-weight: 600;
+    text-align: center;
+}
