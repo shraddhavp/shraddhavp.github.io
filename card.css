@@ -5,7 +5,7 @@ body{
 }
 .card{
     display:none;
-    background-color: white;
+    background-color: pink;
     height: 450px;
     width: 310px;
     position: absolute;
