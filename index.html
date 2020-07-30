@@ -1,103 +1,61 @@
-<html>
-<head>
-<title> Shraddha Prasad</title>
-<style>
- body{
-    background-color: #fabe58;
-    padding: 0;
-    margin: 0;
-}
-.card{
-    display:none;
-    background-color: white;
-    height: 450px;
-    width: 310px;
-    position: absolute;
-    margin: auto;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    transform: scale(0.7);
-    -webkit-transform: scale(0.7);
-    border-radius: 8px;
-    box-shadow: 0 0 80px 1px rgba(233,144,7,0.8);
-}
-.info{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.name{
-    font-size: 35px;
-    font-family: "Raleway",sans-serif;
-    color: black;
-    position: absolute;
-    align:center;
-    letter-spacing: 2px;
-    font-weight: 600;
-    top:120px;
-}
-.prof{
-    font-size: 25px;
-    position: absolute;
-    align:center;
-    top:200px;
-    font-family: "Work Sans",sans-serif;
-    color: black;
-}
-.divider{
-    background-color: #949594;
-    height: 1.5px;
-    width: 50px;
-    position: absolute;
-    top:190px;
-}
-.bio{
-    position: absolute;
-    top:220px;
-    color: #949594;
-    text-align: center;
-    font-size: 18px;
-    font-family: "Work Sans",sans-serif;
-    line-height: 28px;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shraddha Prasad</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-bio">
+          <div class="img-wrapper">
+            <img src="images/image.jpg" alt="Person" />
+          </div>
+          <div class="person-info">
+            <h3>Shraddha Prasad</h3>
+            <p>Python Developer </p>
+          </div>
+          <button class="card-btn">
+            <span class="card-btn-contact">Contact Me</span>
+            <i class="fas fa-angle-up"></i>
+          </button>
+        </div>
+        <div class="card-contact">
+          <h4>Contact Me</h4>
+        </div>
+        <div class="card-social email">
+          <div class="icon-wrapper">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Email</h4>
+            <p>anitha.shraddha@gmail.com</p>
+          </div>
+          <span>></span>
+        </div>
+        <div class="card-social linkedin">
+          <div class="icon-wrapper">
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div class="contact-details">
+            <h4>LinkedIn</h4>
+            <p>https://www.linkedin.com/in/shraddha-prasad-6a60b0188/</p>
+          </div>
+          <span>></span>
+        </div>
+      </div>
+    </div>
 
-.photo{
-    height: 100%;
-    width: 100%;
-    background: url(https://i.ibb.co/kJmjLcT/Webp-net-compress-image-3.jpg);
-    background-repeat:no-repeat;
-    position: absolute;
-    bottom: 0;
-    background-size: 100% 100%;
-    border-radius: 8px;
-    transition: 1s;
-    -webkit-transition: 1s;
-}
-.card:hover .photo{
-    transform: scale(0.5,0.35) translateY(-650px);
-    -webkit-transform: scale(0.5,0.35) translateY(-650px);
-    background-size: 100% 150%;
-    background-position: 0 -25px;
-    border-radius: 50%;
-}
- </style>
- </head>
- <body>
-   
-                <div class="name">SHRADDHA V PRASAD</div>
-            <div class="prof">PYTHON DEVELOPER</div>
-    
-          <p align="center"> <img src="https://github.com/shraddhavp/shraddhavp.github.io/images/picture.png"></p> 
-         <p align="center">
-  <a href="https://www.linkedin.com/in/shraddha-prasad-6a60b0188/"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" width="40" /></a>
-<a href="https://github.com/shraddhavp/"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" width="40" /></a>
-<a href="https://medium.com/@anitha.shraddha"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg" width="40" /></a>
- <a href="anitha.shraddha@gmail.com"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" width="40" /></a>
-  </p>
-  
-                                     
-         </body>
+    <script src="script.js"></script>
+  </body>
 </html>
