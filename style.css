@@ -162,7 +162,7 @@ html {
   transition: all 0.5s 0.3s;
 }
 
-.fb {
+.medium{
   transition: all 0.5s 0.5s;
 }
 
@@ -190,7 +190,7 @@ html {
   background-color: #dd4b39;
 }
 
-.fb .icon-wrapper {
+.medium .icon-wrapper {
   background-color: #3b5998;
 }
 
@@ -214,7 +214,7 @@ html {
   color: #dd4b39;
 }
 
-.fb h4 {
+.medium h4 {
   color: #3b5998;
 }
 
