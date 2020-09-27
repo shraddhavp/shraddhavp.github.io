@@ -36,7 +36,7 @@ let header = $(`
         <li><a class="white-text" href="experience.html">Experience</a></li>
         <li><a class="white-text" href="projects.html">Projects</a></li>
         <li><a class="white-text" href="education.html">Education</a></li>
-        <li><a class="white-text" href="index.html">Blog</a></li>
+        <li><a class="white-text" href="blog.html">Blog</a></li>
         <li><a class="white-text" href="https://drive.google.com/file/d/1jmVPJ3nGUIX1wY3sKRbDpQaA8ctCibH0/view?usp=sharing">My Resume</a></li>
         <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
