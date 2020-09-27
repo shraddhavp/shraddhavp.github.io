@@ -5,7 +5,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Research and Development Intern",
-    cardImage: "../assets/images/experience-page/IISC.jpg",
+    cardImage: "../assets/images/experience-page/iisc1.png",
     place: "Indian Instituite of Science",
     time: "(May2018-July2018)",
     desp: "<li>Face and object Recognition using IR Spectrum thermal camera.</li> <li>Using OpenCV and Image processesing</li> <li>Project designed for Indian Army</li>", 
