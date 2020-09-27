@@ -105,7 +105,7 @@ let footer = $(`
     <!-- Social media icons for footer -->
 
 <div class="social-icons-footer">
-  <a class="social-icon-footer twitter" href="" target="_blank" rel="author">
+  <a class="social-icon-footer twitter" href="https://twitter.com/shraddhavprasa1" target="_blank" rel="author">
     <i class="fab fa-twitter"></i>
       </a>
   <a class="social-icon-footer linkedin" href="https://www.linkedin.com/in/shraddha-prasad-6a60b0188/" target="_blank" rel="author">
