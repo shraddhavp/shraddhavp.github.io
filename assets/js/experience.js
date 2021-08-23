@@ -19,8 +19,8 @@ const exp = [
   },
   {
     title: "Technical Writer",
-    cardImage: "assets/images/experience-page/7.jpg",
-    place: "Google Season Of Docs",
+    cardImage: "assets/images/experience-page/gsod.png",
+    place: "Google Season Of Docs 2021 @ Wechaty",
     time: "(May-present,2021)",
     desp: "<li>Improving the Document of Wechaty references section</li>,
   },
