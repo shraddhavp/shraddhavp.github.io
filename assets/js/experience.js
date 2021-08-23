@@ -22,7 +22,7 @@ const exp = [
     cardImage: "assets/images/experience-page/gsod.png",
     place: "Google Season Of Docs 2021 @ Wechaty",
     time: "(May-present,2021)",
-    desp: "<li>Improving the Document of Wechaty references section</li>,
+    desp: "<li>Improving the Document of Wechaty references section</li>",
   },
 ];
 
