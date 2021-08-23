@@ -17,6 +17,13 @@ const exp = [
     time: "(Jan-Jun,2020)",
     desp: "<li>Automation of repitetive tasks using Python.</li> <li>Creation of Dashboard for monitoring Real-time systems using Machine Learning.</li> <li>Data Analytics useful for incident management</li>",
   },
+  {
+    title: "Technical Writer",
+    cardImage: "assets/images/experience-page/7.jpg",
+    place: "Google Season Of Docs",
+    time: "(May-present,2021)",
+    desp: "<li>Improving the Document of Wechaty references section</li>,
+  },
 ];
 
 const showCards2 = () => {
@@ -105,7 +112,7 @@ const mentor = [
   {
     title: "Girlscript Jamshepur Moderator",
     image: "./assets/images/experience-page/3.jpg",
-    time: "04/2020 - present",
+    time: "04/2020 - 06/2021",
     desp: "<li>It is an non-profit start-up which  is working to change lives by imparting tech education and relevant skills..</li><hr /><li>Ample amount of technologies and projects are there and we are given opportunity to work on them according to our interest and knowledge.</li>",
   },
 ];
