@@ -119,14 +119,7 @@ let footer = $(`
 </div>
     </div>
 
-      <div class="col-sm-6 col-md-5 pt-3 footer-2">
      
-        <!-- footer_title -->
-        <h4 class="webintern_footer_title h5">
-          <small>Get In Touch</small>
-        </h4>
-        <!-- TT-SUBSCRIBE -->
-      
       
         <div class="empty-space marg-lg-b30"></div>
       </div>
