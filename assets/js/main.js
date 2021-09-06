@@ -113,9 +113,6 @@ let footer = $(`
   <a class="social-icon-footer medium" href="https://medium.com/@anitha.shraddha" target="_blank" rel="author">
     <i class="fab fa-medium-m"></i>
       </a>
-  <a class="social-icon-footer kaggle" href="https://www.kaggle.com/shraddhavprasad" target="_blank" rel="author">
-    <i class="fab fa-kaggle"></i>
-      </a>
   <a class="social-icon-footer github" href="https://github.com/shraddhavp" target="_blank" rel="author">
     <i class="fab fa-github"></i>
       </a>
@@ -130,22 +127,7 @@ let footer = $(`
         </h4>
         <!-- TT-SUBSCRIBE -->
       
-      <div class="contact-form">
-          <form>
-              <fieldset class="form-group text-center">
-                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Name">
-              </fieldset>
-              <fieldset class="form-group text-center">
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-              </fieldset>
-              <fieldset class="form-group text-center">
-                  <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
-              </fieldset>
-              <fieldset class="form-group text-xs-right text-center">
-                  <button type="button" class="send-btn btn btn-lg">Send</button>
-              </fieldset>
-          </form>
-      </div>
+      
         <div class="empty-space marg-lg-b30"></div>
       </div>
     </div>
